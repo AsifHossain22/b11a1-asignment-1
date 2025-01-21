@@ -1,3 +1,6 @@
+/*  
+* GlobalStyle
+*/
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +16,32 @@ footer {
   padding: 0 120px;
 }
 
+.btn-primary {
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: 2px solid green;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: green;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-secondary {
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: 2px solid green;
+  color: green;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/*  
+    * NavStyle
+    */
 nav {
   padding: 20px 0;
 }
@@ -26,13 +55,40 @@ nav ul .logo {
   font-size: 32px;
   font-weight: 700;
 }
-.btn-secondary {
-  padding: 15px 30px;
-  border-radius: 8px;
-  border: 2px solid green;
-  color: green;
-  font-size: 16px;
-  font-weight: 600;
+nav li .btn-secondary:hover {
+  background-color: green;
+  border-color: green;
+  color: #ffffff;
+}
+
+/*  
+    * BannerStyle
+    */
+.banner {
+}
+.banner .banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  padding: 60px 80px;
+}
+.banner .banner-container .sub-title {
+  color: #0e0e0e;
+  font-size: 24px;
+  font-weight: 500;
+}
+.banner .banner-container .title {
+  font-size: 46px;
+  font-weight: 700;
+  padding: 15px 0;
+}
+.banner .banner-container .button-container {
+}
+.banner .banner-container .button-container .btn-primary {
+}
+.banner .banner-container .button-container .btn-primary:hover {
   background-color: transparent;
-  cursor: pointer;
+  color: green;
 }
