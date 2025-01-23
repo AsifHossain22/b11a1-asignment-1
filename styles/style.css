@@ -54,10 +54,13 @@ footer {
   font-size: 40px;
   font-weight: 700;
 }
+.section-description {
+  color: #0e0e0e70;
+}
 
 /*  
-  * NavStyle
-  */
+* NavStyle
+*/
 nav {
   padding: 20px 0;
 }
@@ -78,8 +81,8 @@ nav li .btn-secondary:hover {
 }
 
 /*  
-  * BannerStyle
-  */
+* BannerStyle
+*/
 .banner {
 }
 .banner .banner-container {
@@ -110,35 +113,126 @@ nav li .btn-secondary:hover {
 }
 
 /*  
-  * PillarStyle
-  */
-.pillar {
+* PillarStyle
+*/
+.pillar,
+.vision {
   padding: 80px 0;
 }
-.pillar .pillar-container {
+.pillar .pillar-container,
+.vision .vision-container {
 }
-.pillar .pillar-container .section-heading {
+.pillar .pillar-container .section-heading,
+.vision .vision-container .section-heading {
   padding-bottom: 30px;
 }
-.pillar .pillar-container .pillar-items {
+.pillar .pillar-container .pillar-items,
+.vision .vision-container .vision-items {
   display: flex;
   gap: 24px;
 }
-.pillar .pillar-container .pillar-item {
+.pillar .pillar-container .pillar-item,
+.vision .vision-container .vision-item {
   background-color: #ffffff;
   padding: 24px;
   border-radius: 16px;
 }
-.pillar .pillar-container .pillar-item .icon {
+.pillar .pillar-container .pillar-item .icon,
+.vision .vision-container .vision-item .icon {
   width: 64px;
 }
-.pillar .pillar-container .pillar-item .icon img {
+.pillar .pillar-container .pillar-item .icon img,
+.vision .vision-container .vision-item .icon img {
   width: 100%;
 }
-.pillar .pillar-container .pillar-item .pillar-title {
+.pillar .pillar-container .pillar-item .pillar-title,
+.vision .vision-container .vision-item .vision-title {
   font-size: 20px;
   font-weight: 700;
   padding: 10px 0;
 }
-.pillar .pillar-container .pillar-item .pillar-description {
+.pillar .pillar-container .pillar-item .pillar-description,
+.vision .vision-container .vision-item .vision-description {
+}
+
+/*  
+* VisionStyle
+*/
+.vision {
+  padding-top: 0;
+}
+.vision-container {
+}
+.vision-container .section-heading {
+}
+.vision-container .section-description {
+  padding-bottom: 30px;
+}
+.vision .button-container .vision-btn-1 {
+  background-color: #5490f5;
+  border-color: #5490f5;
+  transition-duration: 0.3s;
+}
+.vision .button-container .vision-btn-1:hover {
+  background-color: #3a79e6;
+  border-color: #3a79e6;
+}
+.vision .button-container .vision-btn-2 {
+  background-color: #09a15c;
+  border-color: #09a15c;
+  transition-duration: 0.3s;
+}
+.vision .button-container .vision-btn-2:hover {
+  background-color: #0e9156;
+  border-color: #0e9156;
+}
+.vision .button-container .vision-btn-3 {
+  background-color: #ffc239;
+  border-color: #ffc239;
+  transition-duration: 0.3s;
+}
+.vision .button-container .vision-btn-3:hover {
+  background-color: #e4ad2d;
+  border-color: #e4ad2d;
+}
+
+.vision .vision-item.vision-item-1 {
+  background-color: #5490f520;
+}
+.vision .vision-item.vision-item-2 {
+  background-color: #c6e4d6;
+}
+.vision .vision-item.vision-item-3 {
+  background-color: #f7ebcf;
+}
+.vision-item .vision-description {
+  padding-bottom: 30px;
+}
+
+/*  
+* QuoteStyle
+*/
+.quote {
+  padding-bottom: 80px;
+}
+.quote .quote-container {
+  background-color: #ffffff;
+  padding: 24px 48px;
+  border: 1px solid #0e0e0e15;
+  border-radius: 16px;
+}
+.quote .quote-container .quote-description {
+  background-image: url(../assets/quote-bg.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  padding: 24px 0;
+  line-height: 24px;
+}
+.quote .author {
+  display: block;
+  padding: 15px 0 5px;
+}
+.quote .designation {
+  display: block;
+  padding: 5px 0;
 }
