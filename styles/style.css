@@ -83,8 +83,6 @@ nav li .btn-secondary:hover {
 /*  
 * BannerStyle
 */
-.banner {
-}
 .banner .banner-container {
   display: flex;
   align-items: center;
@@ -103,10 +101,6 @@ nav li .btn-secondary:hover {
   font-weight: 700;
   padding: 15px 0;
 }
-.banner .banner-container .button-container {
-}
-.banner .banner-container .button-container .btn-primary {
-}
 .banner .banner-container .button-container .btn-primary:hover {
   background-color: transparent;
   color: green;
@@ -118,9 +112,6 @@ nav li .btn-secondary:hover {
 .pillar,
 .vision {
   padding: 80px 0;
-}
-.pillar .pillar-container,
-.vision .vision-container {
 }
 .pillar .pillar-container .section-heading,
 .vision .vision-container .section-heading {
@@ -151,9 +142,6 @@ nav li .btn-secondary:hover {
   font-weight: 700;
   padding: 10px 0;
 }
-.pillar .pillar-container .pillar-item .pillar-description,
-.vision .vision-container .vision-item .vision-description {
-}
 
 /*  
 * VisionStyle
@@ -161,17 +149,12 @@ nav li .btn-secondary:hover {
 .vision {
   padding-top: 0;
 }
-.vision-container {
-}
-.vision-container .section-heading {
-}
 .vision-container .section-description {
   padding-bottom: 30px;
 }
 .vision .button-container .vision-btn-1 {
   background-color: #5490f5;
   border-color: #5490f5;
-  transition-duration: 0.3s;
 }
 .vision .button-container .vision-btn-1:hover {
   background-color: #3a79e6;
@@ -180,7 +163,6 @@ nav li .btn-secondary:hover {
 .vision .button-container .vision-btn-2 {
   background-color: #09a15c;
   border-color: #09a15c;
-  transition-duration: 0.3s;
 }
 .vision .button-container .vision-btn-2:hover {
   background-color: #0e9156;
@@ -189,7 +171,6 @@ nav li .btn-secondary:hover {
 .vision .button-container .vision-btn-3 {
   background-color: #ffc239;
   border-color: #ffc239;
-  transition-duration: 0.3s;
 }
 .vision .button-container .vision-btn-3:hover {
   background-color: #e4ad2d;
@@ -235,4 +216,139 @@ nav li .btn-secondary:hover {
 .quote .designation {
   display: block;
   padding: 5px 0;
+}
+
+/*  
+* OptionStyle
+*/
+.option {
+  padding-bottom: 80px;
+}
+.option .option-container .questions {
+  padding: 32px;
+  margin-top: 24px;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+.option .option-container .questions-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c6e4d6;
+  border: 1px solid #0e0e0e15;
+  padding: 24px;
+}
+.option .option-container .questions-header h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.option .questions-body .question-item {
+  border: 1px solid #0e0e0e15;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.option .questions-body .question-item .question {
+  font-weight: 600;
+  padding: 24px;
+}
+.option .questions-body .question-item .answer {
+  padding: 12px;
+  border-left: 1px solid #0e0e0e15;
+}
+.option .questions-body .question-item .answer select {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px;
+}
+
+/*  
+* RecentNewsStyle
+*/
+.recent-news .recent-news-container .section-heading {
+  padding-bottom: 24px;
+}
+.recent-news .news-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 48px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  margin-top: 32px;
+}
+.recent-news .news-item.reverse {
+  flex-direction: row-reverse;
+}
+.recent-news .news-item .image img {
+  border-radius: 24px;
+}
+.recent-news .news-item .content .title {
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+.recent-news .news-item .content .company-logo {
+  padding-bottom: 12px;
+}
+.recent-news .news-item .content .date {
+  font-size: 16px;
+}
+.recent-news .news-item .content .news-description {
+  padding: 12px 0 32px;
+}
+.recent-news .btn-primary:hover {
+  background-color: #0e9156;
+  border-color: #0e9156;
+}
+
+/*  
+* DonateStyle
+*/
+.donate {
+  padding: 80px 0;
+}
+.donate .section-heading {
+  text-align: center;
+  padding-bottom: 24px;
+}
+.donate .section-description {
+  text-align: center;
+}
+.donate .donate-container {
+  display: flex;
+  justify-content: space-around;
+}
+.donate .donate-container .donate-item {
+  padding: 32px 0;
+}
+.donate .donate-container .donate-item h4 {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.donate .donate-container .donate-item h4:hover {
+  background-color: #c6e4d6;
+}
+.donate .amount-field {
+  text-align: center;
+}
+.donate .amount-field input {
+  width: 85%;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid #0e0e0e15;
+}
+.donate .button-container {
+  text-align: center;
+  padding-top: 32px;
+}
+.donate .button-container .btn-primary:hover {
+  background-color: #0e9156;
+  border-color: #0e9156;
 }
