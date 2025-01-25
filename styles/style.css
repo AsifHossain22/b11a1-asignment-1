@@ -23,9 +23,6 @@ header {
 main {
   padding: 0 120px;
 }
-footer {
-  padding: 0 120px;
-}
 
 .btn-primary {
   padding: 15px 30px;
@@ -351,4 +348,76 @@ nav li .btn-secondary:hover {
 .donate .button-container .btn-primary:hover {
   background-color: #0e9156;
   border-color: #0e9156;
+}
+
+/*  
+* NewsletterStyle
+*/
+.newsletter {
+  padding-bottom: 80px;
+}
+.newsletter .newsletter-container {
+  padding: 80px 0;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  text-align: center;
+}
+.newsletter .section-description {
+  padding: 16px 227px 24px;
+}
+.newsletter .subscription-container {
+  text-align: center;
+  width: 750px;
+  margin: 0 auto;
+}
+.newsletter .subscription-container input {
+  border: none;
+  font-size: 16px;
+}
+.newsletter .subscription-container input[type="email"] {
+  width: 65%;
+  padding: 18px 40px;
+  border-radius: 8px 0 0 8px;
+}
+.newsletter .subscription-container input[type="submit"] {
+  padding: 18px 35px;
+  margin-left: -5px;
+  border-radius: 0 8px 8px 0;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #006a50;
+  color: #ffffff;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.newsletter .subscription-container input[type="submit"]:hover {
+  background-color: #0e9156;
+}
+.newsletter p {
+  padding-top: 24px;
+  color: #0e0e0e70;
+}
+input:focus-visible {
+  outline: 0;
+}
+
+/*  
+* FooterStyle
+*/
+footer {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+footer .footer-container {
+  padding: 0 160px;
+  text-align: center;
+}
+footer hr {
+  margin: 32px 50px;
+  background-color: #0e0e0e10;
+  text-align: center;
+}
+.social-icons img {
+  margin: 0 5px;
+  width: 25px;
 }
